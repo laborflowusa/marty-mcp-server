@@ -1,0 +1,30 @@
+{
+  "name": "@martyscan/mcp",
+  "version": "1.0.0",
+  "description": "MARTY MCP Server — Universal RA Scanner for AI agents. Scan products, compare prices across 7 retailers, and get profit analysis inside Claude, Cursor, and any MCP-compatible AI agent.",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "marty-mcp": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "dotenv": "^16.0.0",
+    "node-fetch": "^3.3.0"
+  },
+  "keywords": ["mcp", "retail-arbitrage", "flipping", "scanner", "profit", "reseller"],
+  "author": "Willis Alberto Gonzalez LLC",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/laborflowusa/marty-mcp-server"
+  },
+  "bugs": {
+    "url": "https://github.com/laborflowusa/marty-mcp-server/issues"
+  },
+  "homepage": "https://marty-walmart-ra.vercel.app"
+}
